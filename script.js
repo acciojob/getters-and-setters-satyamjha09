@@ -26,12 +26,11 @@ class Person {
 }
 
 class Student extends Person {
-
-	study() {
-		console.log(`${this.name} is studing`)
-	}
-	
+  study() {
+    console.log(`${this.name} is studying`); // Corrected spelling
+  }
 }
+
 
 class Teacher extends Person {
 
